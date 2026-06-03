@@ -17,17 +17,15 @@ The final parcel visualization is generated from the semantic, boundary, and par
 
 The main resources for this project will be released on Hugging Face, including:
 
-- the dataset used in this work
-- the base pretrained checkpoints required to train this model, corresponding to the local folder `sam-hq-param/`
+- the processed dataset used in this work
 - the trained model checkpoints produced in this project, corresponding to the local folder `Trained_Param/`
 
 Planned links:
 
-- Dataset: `TBD`
-- Base checkpoints: `TBD`
+- Dataset: `TBD` (processed from the publicly available [Sen4AgriNet / S4A](https://github.com/Orion-AI-Lab/S4A) and [AI4Boundaries](http://data.europa.eu/89h/0e79ce5d-e4c8-4721-8773-59a4acf2c9c9) datasets; we gratefully acknowledge the original dataset providers)
 - Trained model checkpoints: `TBD`
 
-After downloading the dataset, please organize the files according to the paths expected by the training scripts in this repository. You can use the provided pipeline scripts as the primary reference for expected directory layout and dataset names.
+After downloading the dataset, please organize the files according to the paths expected by the training scripts in this repository. 
 
 
 ### Expected Dataset Folder Tree
@@ -192,4 +190,4 @@ This codebase is built on top of and inspired by the following excellent project
 - SAM: https://segment-anything.com
 - Diverse Channel ViT: https://github.com/chaudatascience/diverse_channel_vit
 
-We sincerely thank the authors and contributors of these projects for making their work publicly available.
+We thank the authors and contributors of these projects for their valuable work.
