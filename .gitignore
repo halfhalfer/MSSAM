@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime artifacts
+*.log
+log.txt
+
+# Test / coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local generated visualization outputs
+visual_demo/
+uvm_outputs/
+output_cv2.png
+first_sample_band123.png
+vit_reconstruct_image.png
+
+# Local analysis tables
+AI4Boundary_test_significant_counts.xlsx
+S4A_test_significant_counts.xlsx
+
+# Temporary debug scripts or outputs
+torch_test.py
+torch_test_2.py
+
+# Local tensors / debug checkpoints under utils
+train/utils/6190_encoder_embedding.pth
+train/utils/6190_interm_embeddings_0.pth
+train/utils/6190_semantic_mask.pth
+
+# Common model artifacts generated during experiments
+*.pth
+*.pt
+*.ckpt
+Trained_Param/
+
+# somke test outputs
+smoke_runs
+
+# But keep source-controlled examples if you intentionally add them later
+!sam-hq-param/
