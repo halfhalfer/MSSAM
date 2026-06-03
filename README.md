@@ -23,7 +23,7 @@ The main resources for this project will be released on Hugging Face, including:
 Planned links:
 
 - Dataset: `TBD` (processed from the publicly available [Sen4AgriNet / S4A](https://github.com/Orion-AI-Lab/S4A) and [AI4Boundaries](http://data.europa.eu/89h/0e79ce5d-e4c8-4721-8773-59a4acf2c9c9) datasets; we gratefully acknowledge the original dataset providers)
-- Trained model checkpoints: `TBD`
+- Trained model checkpoints: https://huggingface.co/halfhalfer/mssam-cropland-checkpoints
 
 After downloading the dataset, please organize the files according to the paths expected by the training scripts in this repository. 
 
